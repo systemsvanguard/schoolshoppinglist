@@ -13,7 +13,7 @@ Live **Site Demo** ~ [React School Shopping List with Hooks](http://schoolshoppi
 - ensure your have Node & NPM pre-installed. Run commands 'node --version && npm -v'.
 - npm install.  (This ensures all dependencies are installed).
 - npm start
-- Runs on port 3000 by default --> http://localhost:3000/ 
+- Runs on port 3003 by default --> http://localhost:3003/ 
 
 
 ## Features
