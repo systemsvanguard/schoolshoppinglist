@@ -1,7 +1,6 @@
 //src/pages/SiteFooter.js
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import Spacer from '../app/images/spacer.png';
 
 const SiteFooter = () => {
 
@@ -13,7 +12,7 @@ const SiteFooter = () => {
 
 
 
-        <p className="uppercase font-semibold no-margin">Copyright <strong><em><a href="http://www.ryanhunter.ca/">RyanHunter.org</a></em> 2020</strong></p>
+        <p className="font-semibold no-margin">Copyright <strong><em><a href="http://www.ryanhunter.ca/">RyanHunter.org</a></em></strong> 2020</p>
         <p className="uppercase font-semibold no-margin">
           <NavLink to="/home">Shopping List</NavLink> |
           <NavLink to="/services">Services</NavLink> |
