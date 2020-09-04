@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import '../node_modules/cirrus-ui/dist/cirrus.css'
 import * as serviceWorker from './serviceWorker';
+import '../node_modules/bulma/css/bulma.css';
 
 ReactDOM.render(
   <React.StrictMode>

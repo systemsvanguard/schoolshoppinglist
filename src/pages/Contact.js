@@ -1,20 +1,41 @@
 // src/pages/Contact.js
 import React from 'react';
-import ShoppingImage4 from '../app/images/schoolshoppinglist4.png'
+import Spacer from "../app/images/spacer.png";
+import GoogleMaps from "../components/GoogleMaps";
+import ContactDetails from "../components/ContactDetails";
+import ContactForm from "../components/ContactForm";
+import Back2School3 from "../app/images/schoolshoppinglist3.jpg";
 
 const Contact = () => {
   return (
-    <section className="section">
-      <div className="content">
-        <div className="u-text-left">
-          <h1 className="pageHeader u-text-center">Contact Us</h1>
-          <img src={ShoppingImage4} className="img_responsive" alt="Back2School Shopping List" title="Back2School Shopping List" />
+    <div>
+      <div className="container">
+        <h1 className="is-size-3 has-text-weight-bold has-text-success-dark has-text-centered">Contact Us</h1>
+        <p className="title has-text-link is-italic is-size-5">
+          <span className="icon has-text-link is-medium"> <i className="far fa-comment-dots fa-2x"></i></span>
+          <img src={Spacer} alt="" />
+          Let's chat! How can my web development & IT skills help you? Drop me a note below please.
+        </p>
+        <img src={Back2School3} className="img_responsive" alt="Back to School Shopping List" title="Back to School Shopping List" />
 
-          <p>Nelsons folly grog blossom Buccaneer crack Jennys tea cup spirits to go on account heave to. Bilge grapple parrel port list Shiver me timbers Jack Ketch. Heave down ye grapple log wherry scurvy six pounders. Chase heave down reef sails avast strike colors fore lee.</p>
-          <p>Privateer cackle fruit cog skysail jack Jolly Roger holystone. League hornswaggle chandler rigging chase guns sheet fire in the hole. Sea Legs six pounders fore gunwalls aye Cat o'nine tails ye. Sloop shrouds yo-ho-ho quarterdeck long boat fathom nipperkin.</p>
+        <p>Heave to capstan Plate Fleet aft fathom scallywag gibbet. To go on account boom topsail league brig bilge schooner. Shrouds bring a spring upon her cable overhaul doubloon crow's nest heave down crimp mizzenmast. Gabion jib Privateer lass jolly boat crack Jennys tea cup flogging wherry. Gally chandler log salmagundi scuppers take a caulk belay American Main. Gally prow landlubber or just lubber chase guns walk the plank starboard black spot pink.
+        </p>
+        <h1 className="is-size-3 has-text-weight-bold has-text-link-dark has-text-centered">Contact Details</h1>
+        <br />
+
+        <div className="columns">
+          <div className="column is-one-third has-text-justified"> 
+            <ContactDetails />
+          </div>
+          <div className="column">
+            <ContactForm />
+          </div>
         </div>
       </div>
-    </section>
+      <GoogleMaps/>
+      <br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+    </div>
   )
 }
 

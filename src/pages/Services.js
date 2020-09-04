@@ -1,20 +1,17 @@
 // src/pages/Services.js
-import React from 'react';
-import ShoppingImage3 from '../app/images/schoolshoppinglist3.jpg'
+import React from 'react'
+import Back2School4 from "../app/images/schoolshoppinglist4.png";
 
 const Services = () => {
   return (
-    <section className="section">
-      <div className="content">
-        <div className="u-text-left">
-          <h1 className="pageHeader u-text-center">Our Services</h1>
-          <img src={ShoppingImage3} className="img_responsive" alt="Back2School Shopping List" title="Back2School Shopping List" />
+    <div className="container">
+	  <h1 className="is-size-3 has-text-weight-bold has-text-danger has-text-centered">Our Services</h1>
+	  <img src={Back2School4} className="img_responsive" alt="Back to School Shopping List" title="Back to School Shopping List" />
 
-          <p>Heave to Barbary Coast crimp snow quarterdeck man-of-war spyglass. Snow cable splice the main brace yardarm mizzen topsail bounty. Holystone lugger Sink me rutters tack bilged on her anchor deadlights.</p>
-          <p>Wench heave down fire ship bilge rat belaying pin Sink me yardarm. Stern Jack Tar landlubber or just lubber squiffy Chain Shot gangway pressgang. Fire in the hole marooned aye draft parley measured fer yer chains Gold Road.</p>
-        </div>
-      </div>
-    </section>
+	  <p>Quarterdeck clipper parley yardarm gally barque galleon. Bring a spring upon her cable gunwalls Shiver me timbers pink scurvy fore barque. </p>
+    <p>Keelhaul clap of thunder Privateer black jack jack black spot weigh anchor. Lookout boatswain Corsair coffer square-rigged ye bilged on her anchor. </p>
+    <p>Tack boatswain pink topsail run a shot across the bow topgallant gibbet. Topgallant avast hogshead jib grog sloop cutlass.  </p>
+	</div>
   )
 }
 

@@ -1,20 +1,17 @@
 // src/pages/Home.js
 import React from 'react';
-import ShoppingList from '../components/ShoppingList'
+import SchoolItem from "../components/SchoolItem.js";
 
 const Home = () => {
   return (
-    <section className="section">
-      <div className="content">
-        <div className="u-text-left">
-          <ShoppingList />
+    <div className="container">
+      <h1 className="is-size-3 has-text-weight-bold has-text-success has-text-centered">React Shopping List</h1>
+      <br />
 
-          <hr />
-          <p>Aft yard American Main parley lad barque hearties. Parley pressgang run a shot across the bow pinnace trysail gangway main sheet. Crimp parley parrel black jack crack Jennys tea cup knave rutters.</p>
-          <p>Wench heave down fire ship bilge rat belaying pin Sink me yardarm. Stern Jack Tar landlubber or just lubber squiffy Chain Shot gangway pressgang. Fire in the hole marooned aye draft parley measured fer yer chains Gold Road.</p>
-        </div>
+      <div className="has-text-centered">
+        <SchoolItem />
       </div>
-    </section>
+	</div>
   )
 }
 

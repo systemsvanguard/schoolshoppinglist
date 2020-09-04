@@ -1,3 +1,4 @@
+/* Styling for Inspirational Movie Quotes demo app */
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,17 +6,18 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  line-height: 1.4;
+  font-size: 1.4em;
+  background-color: #fcfcfc;
+  color: #00008b;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: justify;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-/*---------------------*/
-.pageHeader {
-  font-weight: bold;
-  font-size: 65px;
-  color: blue;
+a {
+  color: #0000ff;
+  text-decoration: none;
 }
 
 .img_responsive  {
@@ -27,35 +29,89 @@ code {
   border-radius: 8px;
 }
 
+/* CSS for footer navigation bar */
+#ul-footernav {
+  list-style: none;
+  overflow:hidden;
+  background:#eef3fc;
+  margin:0;
+  padding:0;
+}
+#ul-footernav li a {
+  text-align:center;
+  font-weight: bold;
+  color:#2160c4;
+  padding:10px;
+  width:95px;
+}
 
-i { color: #333; }
-footer {
-	background: #f0ffff;
-	color: blue;
+#ul-footernav li {
+  float:left;
 }
-footer .footer-list-title {
-	color: #006400;
+
+#ul-footernav li:hover {
+  background:#2160c4;
+  color: #ff3860;
 }
-footer .list-item:hover {
-	color: #222;
+#ul-footernav li:hover a {
+  color: #ffffff;
 }
-footer p {
-	font-size: 1.2rem;
+#ul-footernav  a {
+  display:block;
 }
-footer a {
-	color: #006400;
+
+#p-navfooter {
+  text-align: center
 }
-.col-6 {
-	margin-bottom: -10px;
+
+.footernav_outer {
+  text-align: center;
 }
-#social a {
-	display: inline-block;
+
+.footernav_inner {
+  display: inline-block;
 }
-.header-brand {
-	color: blue;
-	font-weight: bold;
+
+
+/* Back2School Shopping List */
+.styleItem {
+  padding-left: 10px;
+  padding-right: 3px;
 }
-.header-nav {
-	color: blue;
-	font-weight: #006400;
+
+.itemBackground{
+  background: #fffafa;
+  padding: 20px 10px;
+}
+
+.itemFrame{
+  /* background: #48c774 */
+  width: 70vw;
+  margin: 10em auto;
+  border-radius: 15px;
+  padding: 20px 10px;
+  color: white;
+  border: 3px solid #48c774;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.itemStyled{
+border: 1px solid white;
+border-radius: 3px;
+padding: 0.5em;
+margin: 0.5em;
+}
+
+.itemHeader{
+margin: 0.5em;
+font-size: 2em;
+}
+
+.addItem input[type=text]{
+margin: 2.5em 2em;
+width: 80%;
+outline: none;
+border: none;
+padding: 0.5em;
 }
